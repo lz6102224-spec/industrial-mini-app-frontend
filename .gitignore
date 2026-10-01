@@ -1,0 +1,33 @@
+# ===== 依赖与构建产物 =====
+node_modules
+dist
+dist-ssr
+.vite
+*.tsbuildinfo
+
+# ===== 环境变量 =====
+# .env / .env.mock / .env.development / .env.production 为共享配置模板，需要提交
+# 本地覆盖与含密钥的配置一律忽略
+.env.local
+.env.*.local
+*.local
+
+# ===== 日志 =====
+*.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# ===== 编辑器与 IDE =====
+.vscode/*
+!.vscode/extensions.json
+.idea
+
+# ===== 操作系统 =====
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ===== 缓存 =====
+.eslintcache
+.cache
